@@ -1,0 +1,12 @@
+SOURCE FROM = https://gmlwjd9405.github.io/2018/08/02/data-structure-queue.html
+
+# QUEUE의 개념
+컴퓨터의 기본적인 자료 구조의 한가지로, 먼저 집어 넣은 데이터가 먼저 나오는 
+FIFO(First In First Out) 구조로 저장하는 형식
+
+# QUEUE의 연산
+QUEUE는 FIFO(First-In-First-Out)를 따른다.
+- add(item): item을 리스트의 끝 부분에 추가한다.
+- remove(): 리스트의 첫 번째 항목을 제거한다.
+- peak(): 큐에서 가장 위에 있는 항목을 반환한다.
+- isEmpty(): 큐가 비어 있을 때에 true를 반환한다.
