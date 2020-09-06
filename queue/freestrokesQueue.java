@@ -25,7 +25,7 @@ public class freestrokesQueue implements Queue{
 
     // 큐를 생성하는 생성자
     public freestrokesQueue(int queueSize){
-        front = -1; // from 포인터 초기화
+        front = -1; // from 포인터 초기화x`
         rear = -1; // rear 포인터 초기화
         this.queueSize = queueSize; // queue 사이즈 설정
         queueArr = new char[this.queueSize]; // 큐 배열 생성
